@@ -7,4 +7,5 @@ The analysis focuses on similarity in terms of the types of venues in the cities
 
 ## Data
 The data are a list of cities from switzerland from Wikipedia to get the all towns in switzerland with a population of over 10000 (https://en.wikipedia.org/wiki/List_of_cities_in_Switzerland).
-Then the foursquare API is used to get a list of venues for each city.
+
+Then the foursquare API is used to get a list of venues for each city together with a category. This includes venues, their category (restaurant, grocery store, gym, etc) and their coordinates.
